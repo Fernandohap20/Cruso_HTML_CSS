@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+}
+
+h2{
+    margin-top: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.comprar{
+    background: #a8f ;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #103;
+}
+
+.item {
+    background-color: #f7f7f7;
+    border: 1px solid #e7e7e7;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.grid{
+    display: grid; /* Por padrão o grid só tem uma coluna, tem q definir quantas quer */
+    grid-template-columns: 1fr 1fr 2fr ;/*cada fr é a quantidade de colunas*/
+    gap: 20px; /*Para dar margem entre eles*/
+}
