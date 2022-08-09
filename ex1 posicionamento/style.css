@@ -31,7 +31,7 @@ p{
   flex-wrap: wrap;
   gap: 20px; /*espaçamento*/
   justify-content: center; /*sempre alinhados ao centro*/
-
+  transition: all 400ms ease;
 }
 
 .menu a{
@@ -72,4 +72,37 @@ p{
   padding: 15px 30px;
   border-radius: 4px;
   text-transform: uppercase;
+}
+
+.vantagens{
+  background: white;
+  padding: 40px;
+}
+
+.vantagens-item{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px /*Primeiro valor vai ser das linhas*/ 20px; /*o segundo da coluna*/
+  padding: 20px;
+}
+
+.vantagens-item p {
+  grid-column: 2;
+}
+
+.subtitulo{
+  text-align: right;
+  padding: 40px;
+  align-self: center; /*Para falar diretamente com o ítem*/
+  font-size: 64px;
+  color: rgba(0, 0, 0, 0.356);
+  text-transform: uppercase
+}
+
+.rodape{
+  width: 100%;
+  padding: 40px;
+  text-align: center;
+  background: #fff;
+  box-sizing: border-box; /*faz com q o padding não seja somado*/
 }
