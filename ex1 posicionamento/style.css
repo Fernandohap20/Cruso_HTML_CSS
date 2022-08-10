@@ -17,6 +17,15 @@ a{
   text-decoration:none ;
 }
 
+ div.menu > a:hover{
+  transition: 1s;
+  background: #e21;
+}
+a.veja:hover{
+  transition: 0.5s;
+  background: black;
+}
+
 a,p,h1,h2,h3{
   margin: 0px;
 }
