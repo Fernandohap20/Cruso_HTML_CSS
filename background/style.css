@@ -1,0 +1,29 @@
+.bicicleta {
+  height: 600px;
+  background-color: black;
+  background-image: url('./img/bicicleta.jpg');
+  background-repeat: no-repeat; /*Para não repetir a imagem*/
+  background-size: cover; /*Comforme for diminuindo a tela ele vai cortando a imagem. O valor (contain) não deixa cortar a imagem  */
+  background-position: center top; /*onde ele não vai cortar */
+  /* Escreve por cima do definido anteriormente */
+  /* background: url("./img/bicicleta.jpg"); */
+  display: flex;
+}
+
+.bicicleta h1 {
+  margin: auto;
+  background: white;
+  padding: 1rem 2rem;
+}
+
+.pattern {
+  height: 200px;
+  background-image: url('./img/pattern.svg');
+  background-size: 100px;
+  background-repeat: repeat; /* valor padrão */
+}
+
+.linear{
+  height: 200px;
+  background-image: linear-gradient(to bottom, lightblue, lightcoral);
+}
