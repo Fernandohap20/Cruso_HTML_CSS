@@ -1,0 +1,27 @@
+.minmax {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.minmax img{
+  object-fit: cover; /*Para adptar as imagens enquanto a página cresce ou diminui */
+  object-position: center right; /*posicionar a parte interna da imagem enquanto diminui ou aumenta ela*/
+}
+
+.galeria {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Para adaptar as imagens enquanto a página cresce ou diminui */
+}
+
+div {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+p {
+  font-size: 2rem;
+}

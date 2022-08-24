@@ -1,0 +1,26 @@
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  max-width: 75rem; /*Para o texto ficar fixo e não ir crescendo conforme aumentar a tela*/
+  margin: 0 auto; /*Para sempre centralizar au centro*/
+}
+
+.cover img {
+  height: 100%;
+  object-fit: cover;
+  object-position: top left;
+}
+
+.texto {
+  align-self: center; /*Alinhar ao centro da imagem */
+}
+
+.texto p {
+  max-width: 60ch; /* 'medida 'ch''Tamanho relacionado ao 0*/
+}
